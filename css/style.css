@@ -25,8 +25,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 70%;
-  margin: 0 auto;
+  padding: 0 15%;
 }
 
 a:active {
