@@ -48,6 +48,7 @@ a {
 
 .social {
     z-index: 5;
+    display: flex;
     .fab {
         margin-top: 3rem;
         padding: 0 3rem;
@@ -75,7 +76,7 @@ canvas {
 @media only screen and (max-width: 640px) {
     .title {
         h1 {
-            font-size: 3rem;
+            font-size: 2.2rem;
             transition: font-size 0.25s ease;  
         }
     }
@@ -84,7 +85,7 @@ canvas {
 @media only screen and  (max-width: 320px) {
     .title {
         h1 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             transition: font-size 0.25s ease;  
         }
     }
