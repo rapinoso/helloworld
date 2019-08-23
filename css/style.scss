@@ -10,12 +10,11 @@ body {
     height: 100%;
     color: white;
     font-size: 16px;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
 }
 
 main {
-    min-height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +31,6 @@ a {
 
 //main title 
 .title {
-    // max-width: 63rem;
     z-index: 5;
     h1 {
         font-size: 3.4rem;
