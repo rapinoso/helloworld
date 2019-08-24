@@ -79,6 +79,10 @@ canvas {
             transition: font-size 0.25s ease;  
         }
     }
+
+    main {
+        min-height: 100vmax; 
+    }
 }
 
 @media only screen and  (max-width: 320px) {
@@ -87,6 +91,10 @@ canvas {
             font-size: 2rem;
             transition: font-size 0.25s ease;  
         }
+    }
+
+    main {
+        min-height: 100vmax; 
     }
 }
   
