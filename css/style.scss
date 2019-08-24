@@ -23,8 +23,13 @@ main {
     canvas {
         display: inline;
         vertical-align: bottom;
-      } /* ---- particles.js container ---- */
-      #particles-js {
+      } 
+    .particles-js-canvas-el {
+        height: 100vh !important;
+    }
+      
+      /* ---- particles.js container ---- */
+    #particles-js {
         position: absolute;
         left: 0;
         top: 0;
@@ -32,7 +37,7 @@ main {
         min-height: 100vh;
         background-image: linear-gradient(#08CBA5, #35B0E6);
         background-repeat: no-repeat;
-        // background-size: cover;
+        background-size: cover;
         background-position: 50% 50%;
       } 
 }
@@ -80,10 +85,6 @@ a {
             transition: font-size 0.25s ease;  
         }
     }
-
-    main {
-        min-height: 100vmax; 
-    }
 }
 
 @media only screen and  (max-width: 320px) {
@@ -94,9 +95,6 @@ a {
         }
     }
 
-    main {
-        min-height: 100vmax; 
-    }
 }
   
   
